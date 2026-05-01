@@ -1,0 +1,7 @@
+__pycache__/
+.pytest_cache/
+logs/
+report.html
+page_content.html
+.DS_Store
+*.pyc
