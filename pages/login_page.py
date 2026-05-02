@@ -22,8 +22,8 @@ class LoginPage(BasePage):
         self.error_message = page.locator("[data-test='error']")
         
         # Additional Landing Page UI Locators
-        self.login_logo = page.locator(".login_logo1")
-        self.login_credentials_hint = page.locator("#login_credentials1")
+        self.login_logo = page.locator(".login_logo")
+        self.login_credentials_hint = page.locator("#login_credentials")
         self.login_password_hint = page.locator(".login_password")
 
     # Function dedicated to navigating specifically to the saucedemo login page
